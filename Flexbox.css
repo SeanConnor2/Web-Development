@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+.container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container .card{
+    margin: 10px;
+    text-align: center;
+    color: black;
+    transition: all 600ms;
+}
+
+.card{
+    position: relative;
+    width: 450px;
+}
+.card:hover .meta{
+    display: block;
+}
+.heading{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    width: 300px;
+    border-bottom: 2px solid #FFF;
+    margin: auto;
+}
+img{
+    height: 300px;
+    width: 450px;
+}
+.meta{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    background: rgba(0,0,0,0.5);
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+    width:100%;
+    display: none;
+}
