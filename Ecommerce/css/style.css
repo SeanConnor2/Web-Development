@@ -188,3 +188,13 @@ section {
    visibility: hidden;
   }
 }
+@media screen and (max-width: 1200px) {
+  .t-hide-mobile-2{
+   visibility: hidden;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .t-vis-mobile{
+   visibility: hidden; 
+  }
+}
